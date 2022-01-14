@@ -13,7 +13,7 @@ public class VarEx03 {
         double t1 = n1; // double의 공간이 더 크기 때문에 대입 가능
         // 이를 묵시적 형변환이라고 함 - 암묵적으로 자료 형태를 변환했다.
         // int t2 = n3; double이 더 커서 못 들어감
-        int t2 = (int) n3; // 명시적 형변환
+        int t2 = (int) n3; // 명시적 형변환, double이었던 30.1(n3) 값을 (int)로 바꿔서 t2에 대입한다.
         System.out.println(t1); // 10.0, double 형변환
         System.out.println(t2); // 30, int 형변환
 
