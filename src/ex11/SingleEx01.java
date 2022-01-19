@@ -28,6 +28,6 @@ public class SingleEx01 {
 
         System.out.println(t1.hashCode()); // 주소번지를 해시코드로 바꾸어서 출력
         System.out.println(t2.hashCode());
-        // object class가 모든 class에 extends로 생략되어있기 때문에 hashCode를 불러오기가 가능하다.
+        // object class가 모든 부모 class에 extends로 생략되어있기 때문에 hashCode를 불러오기가 가능하다.
     }
 }
