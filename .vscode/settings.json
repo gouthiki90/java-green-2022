@@ -1,4 +1,10 @@
 {
     "java.project.sourcePaths": ["src"],
-    "java.project.outputPath": "bin"
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/Users/jeonga-eun/Downloads/javaSDK-2.2.jar",
+        "/Users/jeonga-eun/Downloads/json-simple-1.1.1.jar",
+        "/Users/jeonga-eun/Downloads/gson-2.8.5.jar"
+    ]
 }

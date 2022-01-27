@@ -68,11 +68,11 @@ public class StringEx04 {
             // 1. 이름:홍길동을 :으로 구분해서 홍길동을 찾자
             String name = tokens[1].split(":")[1]; // 메소드 선언 후 배열 재정의
             // 2. 전화번호:0102222를 :로 구분해서 0102222를 찾자
-            String tel = tokens[2].split(":")[1];
+            String tel = tokens[2].split(":")[2];
             // 3. 성별:남을 :로 구분해서 찾자
-            String genderTemp = tokens[3].split(":")[1];
+            String genderTemp = tokens[3].split(":")[3];
             // 4. 나이:20을 :로 구분해서 20을 찾자
-            String ageTemp = tokens[4].split(":")[1];
+            String ageTemp = tokens[4].split(":")[4];
             // 5. Char로 담고, int로 담고 하는 형변환 하기
             char gender = genderTemp.charAt(0); // index 번호는 항상 0부터 시작한다. 데이터의 번지수를 말한다.
             String ageTrim = ageTemp.trim();
